@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>José Ferreira da Silva | Analista de Sistemas & Desenvolvedor Web</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Estilo Customizado -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="100">
+
+  <!-- Navbar -->
+  <nav id="mainNav" class="navbar navbar-expand-lg navbar-custom fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home">
+        <i class="fa-solid fa-code me-1 text-primary"></i>José<span>.dev</span>
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item"><a class="nav-link" href="#home">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#especialidades">Especialidades</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+          <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+            <a href="https://wa.me/5582996406119" target="_blank" class="btn-cta-amber btn-sm px-3 py-2">
+              <i class="fa-brands fa-whatsapp fs-5"></i> WhatsApp
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-7 text-center text-lg-start">
+          <div class="mb-3">
+            <span class="hero-subtitle-code"><i class="fa-solid fa-graduation-cap me-1"></i> Análise e Desenvolvimento de Sistemas</span>
+          </div>
+          <h1 class="hero-title mb-3">
+            Desenvolvimento de Sistemas & <span class="highlight">Soluções Digitais</span>.
+          </h1>
+          <p class="fs-5 text-muted mb-4">
+            Olá! Sou <strong>José Ferreira da Silva</strong>, formado em Análise e Desenvolvimento de Sistemas. Alio visão prática operacional, gestão de dados e criação de aplicações web eficientes.
+          </p>
+          
+          <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-start mb-5">
+            <a href="https://wa.me/5582996406119" target="_blank" class="btn-cta-cyan">
+              <i class="fa-solid fa-paper-plane"></i> Falar Comigo
+            </a>
+            <a href="#projetos" class="btn-custom-outline">
+              Ver Projetos
+            </a>
+          </div>
+
+          <!-- Process Flow -->
+          <div class="p-3 bg-white rounded-4 shadow-sm border d-inline-flex flex-wrap align-items-center gap-3 gap-md-4 justify-content-center">
+            <div class="process-step-item">
+              <div class="icon-badge icon-badge-cyan mb-0" style="width:38px; height:38px; font-size:0.95rem;">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <span>Desenvolvimento</span>
+            </div>
+            <span class="step-dots d-none d-sm-inline">• • •</span>
+            <div class="process-step-item">
+              <div class="icon-badge icon-badge-blue mb-0" style="width:38px; height:38px; font-size:0.95rem;">
+                <i class="fa-solid fa-database"></i>
+              </div>
+              <span>Banco de Dados</span>
+            </div>
+            <span class="step-dots d-none d-sm-inline">• • •</span>
+            <div class="process-step-item">
+              <div class="icon-badge icon-badge-teal mb-0" style="width:38px; height:38px; font-size:0.95rem;">
+                <i class="fa-solid fa-gears"></i>
+              </div>
+              <span>Processos & TI</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Foto de Perfil com Badges Flutuantes -->
+        <div class="col-lg-5 text-center">
+          <div class="profile-frame">
+            <div class="floating-badge badge-top-left">
+              <i class="fa-solid fa-laptop-code text-primary"></i> Desenvolvedor Web
+            </div>
+            <img src="assets/foto.jpg" alt="José Ferreira da Silva" class="profile-img" onerror="this.src='https://placehold.co/300x300/0284c7/ffffff?text=Jose+Ferreira'">
+            <div class="floating-badge badge-bottom-right">
+              <i class="fa-solid fa-certificate text-teal"></i> ADS - UMJ | Maceió-AL
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" class="py-5">
+    <div class="container">
+      <div class="custom-card p-4 p-md-5">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-4 text-center">
+            <div class="p-4 rounded-4 bg-light d-inline-block shadow-sm">
+              <i class="fa-solid fa-user-check text-primary display-1 mb-3"></i>
+              <h4 class="fw-bold mb-1">José Ferreira</h4>
+              <p class="text-muted small mb-0">Analista de Sistemas</p>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="d-flex align-items-center gap-2 text-primary fw-bold mb-2">
+              <i class="fa-solid fa-graduation-cap fs-5"></i>
+              <span>PERFIL PROFISSIONAL & ACADÊMICO</span>
+            </div>
+            <h2 class="fw-bold text-dark mb-3">Tecnologia, Processos de TI e Gestão de Dados</h2>
+            <p class="text-muted leading-relaxed mb-3">
+              Sou graduado em <strong>Análise e Desenvolvimento de Sistemas</strong> pelo Centro Universitário Mario Pontes Jucá (UMJ).
+            </p>
+            <p class="text-muted leading-relaxed mb-0">
+              Minha trajetória conta com sólida vivência profissional em faturamento, logística, almoxarifado e controle de processos operacionais. Essa união entre experiência de negócio e tecnologia me capacita para construir sistemas eficientes, gerenciar dados e otimizar fluxos de trabalho.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Especialidades -->
+  <section id="especialidades" class="py-5">
+    <div class="container text-center">
+      <h2 class="fw-bold text-dark mb-2">Áreas de Atuação & Habilidades</h2>
+      <p class="text-muted mb-5">Conhecimentos técnicos em desenvolvimento de software, banco de dados e gestão operacional</p>
+
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="custom-card p-4 h-100 text-center">
+            <div class="icon-badge icon-badge-cyan">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <h5 class="fw-bold mb-2">Desenvolvimento Web</h5>
+            <p class="text-muted small mb-0">Criação de páginas e aplicações web utilizando HTML5, CSS3, JavaScript e interfaces responsivas com Bootstrap[cite: 2].</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="custom-card p-4 h-100 text-center">
+            <div class="icon-badge icon-badge-blue">
+              <i class="fa-solid fa-database"></i>
+            </div>
+            <h5 class="fw-bold mb-2">Bancos de Dados & SQL</h5>
+            <p class="text-muted small mb-0">Fundamentos de modelagem relacional, consultas estruturadas e organização de dados corporativos.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="custom-card p-4 h-100 text-center">
+            <div class="icon-badge icon-badge-amber">
+              <i class="fa-solid fa-file-excel"></i>
+            </div>
+            <h5 class="fw-bold mb-2">Excel Avançado & Processos</h5>
+            <p class="text-muted small mb-0">Elaboração e controle de planilhas complexas, faturamento, conferência de estoques e emissão de documentos operacionais[cite: 1].</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="custom-card p-4 h-100 text-center">
+            <div class="icon-badge icon-badge-teal">
+              <i class="fa-solid fa-diagram-project"></i>
+            </div>
+            <h5 class="fw-bold mb-2">SCRUM & Gestão Ágil</h5>
+            <p class="text-muted small mb-0">Organização de projetos utilizando metodologias ágeis, divisões por sprints e foco em entregas continuas[cite: 2].</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="custom-card p-4 h-100 text-center">
+            <div class="icon-badge icon-badge-purple">
+              <i class="fa-solid fa-headset"></i>
+            </div>
+            <h5 class="fw-bold mb-2">Suporte & Atendimento</h5>
+            <p class="text-muted small mb-0">Atendimento ao cliente, resolução de dúvidas técnicas, arquivamento e rotinas administrativas de TI[cite: 1].</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="custom-card p-4 h-100 text-center">
+            <div class="icon-badge icon-badge-cyan">
+              <i class="fa-solid fa-truck-ramp-box"></i>
+            </div>
+            <h5 class="fw-bold mb-2">Logística & Faturamento</h5>
+            <p class="text-muted small mb-0">Emissão de Conhecimento de Transporte (CT-e), conferência de carga e gestão operacional de almoxarifado[cite: 1].</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projetos -->
+  <section id="projetos" class="py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold text-dark mb-2">Projetos em Destaque</h2>
+        <p class="text-muted">Sistemas e aplicações web desenvolvidos na prática</p>
+      </div>
+
+      <div class="row g-4 justify-content-center">
+        <!-- Projeto 1 -->
+        <div class="col-md-6">
+          <div class="custom-card p-4 h-100 d-flex flex-column justify-content-between">
+            <div>
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <span class="tech-tag">Web App</span>
+                <i class="fa-solid fa-barcode text-primary fs-4"></i>
+              </div>
+              <h4 class="fw-bold text-dark mb-2">PreçoNaMão</h4>
+              <p class="text-muted small mb-3">Aplicação web e móvel voltada para leitura instantânea de códigos de barra via câmera, gestão comparativa de preços e cálculo de economia para consumidores.</p>
+              <div class="d-flex gap-2 flex-wrap mb-4">
+                <span class="badge bg-light text-dark border">JavaScript</span>
+                <span class="badge bg-light text-dark border">HTML5/CSS3</span>
+                <span class="badge bg-light text-dark border">Barcode API</span>
+              </div>
+            </div>
+            <div class="d-flex gap-2">
+              <a href="#" target="_blank" class="btn btn-sm btn-outline-primary rounded-pill px-3 fw-bold w-100 text-center">
+                <i class="fa-solid fa-arrow-up-right-from-square me-1"></i> Ver Demo
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projeto 2 -->
+        <div class="col-md-6">
+          <div class="custom-card p-4 h-100 d-flex flex-column justify-content-between">
+            <div>
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <span class="tech-tag">ERP / Dados</span>
+                <i class="fa-solid fa-calculator text-primary fs-4"></i>
+              </div>
+              <h4 class="fw-bold text-dark mb-2">GuardContab</h4>
+              <p class="text-muted small mb-3">Plataforma ERP contábil com suporte a gerenciamento de dados corporativos, organização fiscal, controle de acesso de usuários e automação de rotinas.</p>
+              <div class="d-flex gap-2 flex-wrap mb-4">
+                <span class="badge bg-light text-dark border">PostgreSQL</span>
+                <span class="badge bg-light text-dark border">JavaScript</span>
+                <span class="badge bg-light text-dark border">Full Stack</span>
+              </div>
+            </div>
+            <div class="d-flex gap-2">
+              <a href="#" target="_blank" class="btn btn-sm btn-outline-primary rounded-pill px-3 fw-bold w-100 text-center">
+                <i class="fa-solid fa-arrow-up-right-from-square me-1"></i> Ver Demo
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Banner CTA -->
+  <section class="py-5">
+    <div class="container">
+      <div class="cta-banner text-center text-lg-start">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-8">
+            <h3 class="fw-bold mb-2"><i class="fa-solid fa-code me-2"></i>Vamos trabalhar juntos em novas soluções de TI?</h3>
+            <p class="mb-0 text-white-50 fs-5">Aberto para oportunidades de estágio e atuação em desenvolvimento, suporte técnico e gestão de dados.</p>
+          </div>
+          <div class="col-lg-4 text-center text-lg-end">
+            <a href="https://wa.me/5582996406119" target="_blank" class="btn-cta-amber fs-6">
+              Falar no WhatsApp <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="py-5">
+    <div class="container text-center">
+      <h2 class="fw-bold text-dark mb-2">Contato Direto</h2>
+      <p class="text-muted mb-4">Maceió, Alagoas — Disponível para novos desafios</p>
+
+      <div class="row g-3 justify-content-center">
+        <div class="col-md-4">
+          <a href="mailto:ofsilva3000@gmail.com" class="custom-card p-3 d-block text-decoration-none text-dark h-100">
+            <i class="fa-solid fa-envelope text-primary fs-3 mb-2"></i>
+            <div class="fw-bold small">E-mail</div>
+            <div class="text-muted small text-truncate">ofsilva3000@gmail.com</div>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="tel:82996406119" class="custom-card p-3 d-block text-decoration-none text-dark h-100">
+            <i class="fa-solid fa-phone text-primary fs-3 mb-2"></i>
+            <div class="fw-bold small">Telefone</div>
+            <div class="text-muted small">(82) 99640-6119</div>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="https://wa.me/5582996406119" target="_blank" class="custom-card p-3 d-block text-decoration-none text-dark h-100">
+            <i class="fa-brands fa-whatsapp text-success fs-3 mb-2"></i>
+            <div class="fw-bold small">WhatsApp</div>
+            <div class="text-muted small">(82) 99640-6119</div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-4 text-center">
+    <div class="container">
+      <p class="mb-0 small text-white-50">&copy; 2026 - José Ferreira da Silva | Análise e Desenvolvimento de Sistemas.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
